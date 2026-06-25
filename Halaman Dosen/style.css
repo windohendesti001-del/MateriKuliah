@@ -1,0 +1,210 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#d9d4d4;
+}
+
+
+.navbar{
+    height:60px;
+    background:#69aaf7;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    padding:0 20px;
+}
+
+.logo-box{
+    width:75px;
+    height:40px;
+    background:white;
+    border-radius:20px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.logo-box img{
+    width:55px;
+}
+
+.brand{
+    font-size:26px;
+}
+
+.brand span{
+    color:#2e40ff;
+}
+
+.menu{
+    display:flex;
+    gap:40px;
+    list-style:none;
+}
+
+.menu a{
+    text-decoration:none;
+    color:black;
+    font-size:15px;
+}
+
+.home-icon{
+    font-size:22px;
+}
+
+
+.container{
+    width:95%;
+    margin:25px auto;
+}
+
+.title{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:10px;
+}
+
+.line{
+    height:2px;
+    background:black;
+    margin-bottom:15px;
+}
+
+
+
+.search-box{
+    display:flex;
+    gap:15px;
+    margin-bottom:30px;
+}
+
+.search-box select,
+.search-box input{
+    height:35px;
+    border:none;
+    padding:0 10px;
+}
+
+.search-box select{
+    width:250px;
+}
+
+.search-box input{
+    width:180px;
+}
+
+.search-box button{
+    width:45px;
+    border:none;
+    background:#2d84ff;
+    color:white;
+}
+
+
+.dosen-wrapper{
+    display:flex;
+    flex-direction:column;
+    gap:35px;
+}
+
+.card{
+    width:490px;
+    min-height:95px;
+    background:#f5f5f5;
+    border-radius:12px;
+
+    display:flex;
+    align-items:center;
+    padding:25px;
+}
+
+.card img{
+    width:90px;
+    height:85px;
+    border-radius:10px;
+    object-fit:cover;
+}
+
+.left{
+    margin-left:40px;
+}
+
+.right{
+    margin-left:auto;
+}
+
+.info{
+    padding:0 15px;
+}
+
+.info h3{
+    font-size:15px;
+}
+
+.info p{
+    font-size:13px;
+    margin-top:5px;
+}
+
+.info small{
+    font-size:10px;
+}
+
+.info button{
+    margin-top:10px;
+    width:90px;
+    height:25px;
+
+    border:none;
+    border-radius:20px;
+
+    background:#69aaf7;
+}
+
+
+.pagination{
+    margin:35px 0;
+    display:flex;
+    justify-content:center;
+}
+
+.pagination button{
+    padding:8px 15px;
+    border:1px solid #999;
+    background:white;
+}
+
+.pagination .active{
+    background:#69aaf7;
+}
+
+
+footer{
+    background:#69aaf7;
+    display:flex;
+    justify-content:space-around;
+    padding:20px;
+}
+
+.footer-col h4{
+    margin-bottom:10px;
+    font-size:13px;
+}
+
+.footer-col p{
+    font-size:12px;
+    margin-bottom:5px;
+}
+
+.footer-social{
+    font-size:18px;
+}

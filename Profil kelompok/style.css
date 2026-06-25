@@ -1,0 +1,179 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+body{
+background:#d9d9d9;
+color:#222;
+}
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#67a8f7;
+padding:12px 40px;
+flex-wrap:wrap;
+}
+.logo{
+display:flex;
+align-items:center;
+}
+.logo img{
+width:60px;
+height:60px;
+border-radius:15px;
+object-fit:cover;
+margin-right:10px;
+background:#fff;
+padding:4px;
+}
+.logo h2{color:#0a3ea8;}
+nav a{
+text-decoration:none;
+color:#000;
+font-weight:bold;
+margin-left:25px;
+}
+nav a:hover{color:#fff;}
+.judul{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+}
+.back{
+font-size:22px;
+color:#000;
+text-decoration:none;
+}
+.sosmed a{
+color:#000;
+font-size:22px;
+margin-left:10px;
+}
+hr{
+width:90%;
+margin:10px auto;
+}
+.card{
+width:90%;
+max-width:950px;
+margin:30px auto;
+background:#67a8f7;
+border-radius:12px;
+padding:20px;
+box-shadow:0 3px 8px rgba(0,0,0,.2);
+}
+.kiri{
+    margin-left:40px;
+    margin-right:auto;
+}
+
+.kanan{
+    margin-left:auto;
+    margin-right:40px;
+}
+.card h3{
+text-align:center;
+margin-bottom:15px;
+}
+.isi-card{
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:20px;
+}
+.identitas{flex:1;}
+.identitas table{
+border-collapse:collapse;
+width:100%;
+}
+.identitas td{
+padding:6px;
+vertical-align:top;
+}
+.identitas td:first-child{width:80px;}
+.identitas td:nth-child(2){width:10px;}
+.isi-card img{
+width:150px;
+height:150px;
+border-radius:10px;
+object-fit:cover;
+border:3px solid #fff;
+}
+footer{
+margin-top:40px;
+background:#67a8f7;
+padding:30px;
+}
+.footer-content{
+display:flex;
+justify-content:space-between;
+gap:20px;
+flex-wrap:wrap;
+}
+.footer-logo img{
+width:55px;
+height:55px;
+border-radius:12px;
+background:#fff;
+padding:4px;
+}
+.footer-menu ul{
+list-style:none;
+padding:0;
+}
+.footer-menu li{margin:8px 0;}
+.footer-menu a{
+text-decoration:none;
+color:#000;
+}
+.footer-sosmed a{
+font-size:24px;
+margin-right:10px;
+color:#000;
+}
+.footer-sosmed a:hover,
+.footer-menu a:hover,
+.sosmed a:hover,
+.back:hover{
+color:#fff;
+}
+.copyright{
+text-align:center;
+margin-top:15px;
+font-weight:bold;
+}
+@media(max-width:768px){
+header,.judul{
+flex-direction:column;
+text-align:center;
+gap:15px;
+}
+nav a{
+display:inline-block;
+margin:8px;
+}
+.kiri,.kanan{
+margin:20px auto;
+}
+.isi-card{
+flex-direction:column;
+text-align:center;
+}
+.identitas td{
+display:block;
+width:100%;
+padding:2px 0;
+}
+.identitas tr{
+display:block;
+margin-bottom:10px;
+}
+.footer-content{
+flex-direction:column;
+text-align:center;
+}
+}

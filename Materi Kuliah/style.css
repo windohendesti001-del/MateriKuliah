@@ -1,0 +1,197 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif
+}
+
+    body
+    {
+        background:#d9d9d9
+    }
+
+    header
+    {
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        background:#69a8f5;
+        padding:12px 30px;
+        flex-wrap:wrap
+    }
+.logo
+{
+    display:flex;
+    align-items:center
+}
+.logo img
+{
+    width:60px;
+    height:60px;
+    border-radius:15px;
+    background:#fff;
+    padding:4px;
+    margin-right:10px
+}
+.logo span
+    {
+        color:#3b39ff
+    }
+nav a
+{
+    text-decoration:none;
+    color:#111;
+    margin-left:30px;
+    font-weight:600
+}
+nav a:hover,
+.download a:hover,
+.back:hover
+{
+    color:#fff
+}
+.judul
+{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    width:90%;
+    margin:20px auto
+}
+
+    .back{font-size:28px;
+        color:#111
+    }
+.judul-text
+{
+    flex:1
+}
+.judul h1
+{
+    font-size:42px
+}
+
+.judul hr
+{
+    border:2px solid #111;
+    margin-top:8px
+}
+.materi
+{
+    width:90%;
+    max-width:1100px;
+    margin:20px auto
+}
+.card
+{
+    background:#fff;
+    border-radius:4px;
+    margin:30px auto;
+    overflow:hidden;
+    box-shadow:0 2px 5px rgba(0,0,0,.15)
+}
+.atas,
+.bawah
+{
+    height:12px;
+    background:#59a2f7
+}
+.isi
+{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:16px 22px;
+    gap:15px
+}
+.info
+{
+    flex:2
+}
+.info h3
+{
+    font-size:22px;
+    margin-bottom:8px
+}
+.info p
+{
+    color:#666;
+    font-size:14px
+}
+.sks,
+.jadwal
+{
+    text-align:center;
+    min-width:90px;
+    color:#555;
+    font-size:14px
+}
+
+.download a
+{
+    font-size:30px;
+    color:#222
+}
+footer
+{
+    background:#69a8f5;
+    margin-top:40px;
+    padding:30px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:20px
+}
+.footer-kiri i
+{font-size:20px;
+    margin-right:10px
+}
+.footer-menu h4
+{margin-bottom:10px
+}
+.footer-menu p
+{
+    margin:6px 0;
+    font-size:14px
+}
+@media
+(
+    max-width:768px
+    )
+    {
+        header
+        {
+            flex-direction:column;
+            gap:10px
+        }nav
+        {
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center
+        }
+        nav a
+        {
+            margin:8px
+        }
+        .judul
+        {
+            width:95%
+        }
+        .judul h1
+        {
+            font-size:32px
+        }
+        .isi{flex-direction:column;
+            align-items:flex-start
+        }
+        .sks,
+        .jadwal,
+        .download
+        {
+            text-align:left
+        }
+        footer
+        {
+            flex-direction:column
+        }
+    }
